@@ -1,0 +1,334 @@
+
+                                /* HEADER */
+.header {
+    display: flex;
+}
+
+.header__menu {
+    display: grid;
+    grid-template-columns: 3fr 183px 183px 183px 3fr;
+    align-items: center;
+    width: 100%;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    font-size: 22px;
+    line-height: 34px;
+}
+
+.header__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 183px;
+    height: 81px;
+    border: 1px solid;
+}
+
+/* logo */
+.header__link_start {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-left: none;
+    padding-bottom: 12px;
+    padding-left: 68px;
+    font-weight: 400;
+    font-size: 69px;
+    line-height: 108.5px;
+}
+
+.header__link_end {
+    justify-content: flex-end;
+    border-right: none;
+    padding-right: 74px;
+}
+
+
+
+                                /* HERO */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 85px 120px 220px 130px;
+}
+
+.hero__content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 296px;
+}
+
+.hero__title {
+    z-index: 1;
+    display: flex;
+    flex-wrap: nowrap;
+    width: fit-content;
+    margin-right: -350px;
+    font-weight: 400;
+    font-size: 84px;
+    line-height: 130px;
+}
+
+.hero__link {
+    display: flex;
+    gap: 14px;
+    margin-top: -11px;
+    padding-left: 14px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+.hero__link::after {
+    content: url(../images/arrow.svg);
+    width: 55px;
+    height: 17px;
+    margin-top: 2px;
+}
+
+/* image */
+.hero__image {
+    display: block;
+    width: 488px;
+    height: 578px;
+}
+
+
+
+                                /* SHOP */
+.shop {
+    display: flex;
+    height: 620px;
+}
+
+.shop__image {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+}
+
+.shop__image_woman {
+    background: url(../images/shop-women.png)  no-repeat center / cover;
+}
+
+.shop__image_men {
+    background: url(../images/shop-men.png)  no-repeat center / cover;
+}
+
+.shop-category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    min-width: 280px;
+    height: fit-content;
+    padding: 40px 80px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: uppercase;
+    background-color: #FFBCBC;
+    cursor: pointer;
+}
+
+
+
+                                /* NEW-IN-STOCK */
+.new {
+    display: flex;
+    flex-direction: column;
+    padding-top: 166px;
+}
+
+.new__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 2px solid;
+}
+
+.new__title {
+    margin-top: 10px;
+    margin-left: 66px;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 91px;
+}
+
+.new__header-link {
+    margin-right: 75px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 50px;
+    text-transform: uppercase;
+
+}
+
+.new__product-list {
+    display: flex;
+    gap: 20px;
+    padding: 77px 20px 195px;
+}
+
+/* card */
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.card__image {
+    display: block;
+    width: 453px;
+    height: 254px;
+}
+
+.card__title {
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: capitalize;
+}
+
+.card__text {
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.card__price {
+    margin-top: 12px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+
+
+                                /* DEMO */
+.demo {
+    display: flex;
+    align-items: flex-end;
+    gap: 71px;
+    background-color: #AABAD0;
+}
+
+.demo__image {
+    display: block;
+    width: 648px;
+    height: 620px;
+}
+
+.demo__brand {
+    margin-bottom: -18px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 31px;
+    text-transform: uppercase;
+}
+
+.demo__title {
+    margin-bottom: -2px;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 108px;
+}
+
+.demo__text {
+    margin-bottom: 70px;
+    margin-left: 3px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+}
+
+.shop-category_demo {
+    padding: 46px 67px;
+}
+
+
+
+                                /* BESTSELLERS */
+.best__title {
+    font-weight: 400;
+}
+
+
+
+/* FOR-SIGHT */
+.for-sight-women {
+    background: url(../images/for-sight__women.png)  no-repeat center / cover;
+}
+
+.for-sight-men {
+    background: url(../images/for-sight__men.png)  no-repeat center / cover;
+}
+
+
+
+                                /* OUR-BRANDS */
+.our-brands {
+    padding-top: 170px;
+}
+
+.brands-box {
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+    height: 100%;
+    padding-top: 75px;
+}
+
+
+
+                                /* ABOUT */
+.about {
+    display: flex;
+    gap: 115px;
+    padding: 236px 300px 150px 137px;
+}
+
+.about__content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.about__title {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 108px;
+    margin-top: -25px;
+    margin-bottom: -10px;
+}
+
+.about__text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.about__image-box {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.about__image {
+    display: block;
+    width: 420px;
+    height: 490px;
+}
+
+
+
+/* FOOTER */
+.footer {
+    background-color: #AABAD0;
+}
