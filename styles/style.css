@@ -24,7 +24,7 @@
     border: 1px solid;
 }
 
-/* logo */
+                /* logo */
 .header__logo {
     display: flex;
     justify-content: flex-start;
@@ -88,7 +88,7 @@
     margin-top: 2px;
 }
 
-/* image */
+                /* image */
 .hero__image {
     display: block;
     width: 488px;
@@ -174,7 +174,7 @@
     padding: 77px 20px 195px;
 }
 
-/* card */
+                /* card */
 .card {
     display: flex;
     flex-direction: column;
@@ -262,7 +262,7 @@
 
 
 
-/* FOR-SIGHT */
+                                /* FOR-SIGHT */
 .for-sight-women {
     background: url(../images/for-sight__women.png)  no-repeat center / cover;
 }
@@ -359,11 +359,14 @@
     line-height: 28px;
 }
 
-/* content */
+                /* content */
 .footer__content {
     display: flex;
-    padding-bottom: 25px;
     padding-left: 140px;
+}
+
+.footer__links-column {
+    padding-bottom: 25px;
 }
 
 .footer__menu {
@@ -401,14 +404,14 @@
     line-height: 28px;
 }
 
-/* designer */
+                /* designer */
 .design-author {
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
 }
 
-/* copyright */
+                /* copyright */
 .copyright {
     display: flex;
     align-items: center;
@@ -425,7 +428,7 @@
     line-height: 28px;
 }
 
-/* photo-authors */
+                /* photo-authors */
 .photo-authors {
     width: 415px;
     padding-top: 28px;
@@ -449,14 +452,14 @@
     margin-top: 5px;
 }
 
-/* contacts */
+                /* contacts */
 .footer__contacts {
     margin-bottom: 40px;
     border-left: 2px solid;
     padding: 40px 0 0 41px;
 }
 
-/* form */
+                /* form */
 .form {
     display: flex;
     flex-direction: column;
@@ -475,10 +478,12 @@
     margin-left: 2px;
     border: none;
     border-bottom: 2px solid;
+    font-size: 18px;
     background-color: transparent;
+    cursor: pointer;
 }
 
-/* address */
+                /* address */
 .address-box {
     display: flex;
     gap: 40px;
@@ -510,10 +515,16 @@
     line-height: 28px;
 }
 
-/* social */
+                /* social */
 .footer__social {
     display: flex;
     gap: 17px;
+    height: fit-content;
     margin-top: 3px;
     margin-left: 30px;
+}
+
+                /* status */
+.form__textfield:focus, .form__textfield:focus-visible {
+    outline: none;
 }
